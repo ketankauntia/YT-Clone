@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  background-color: #f8f8f8;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ################ Header  */
+.youtubeheader {
+  /* box-shadow: 0 0.3rem 0.7rem lightgrey; */
+  position: fixed;
+  width: 100%;
+}
+
+.headercontainers {
+  display: flex;
+  margin: 1rem;
+  padding-top: 0.3rem;
+  /* padding-top: 1.5rem 1.2rem 1.5rem 0.2rem; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* header yt logo  */
+.headerytlogo {
+  padding-left: 1rem;
+}
+.headerytlogo img {
+  height: 2.2rem;
+}
+
+/* heder search box  */
+.searchbox {
+  display: flex;
+}
+.searchbox input {
+  height: 1.7rem;
+  margin-top: 0.6rem;
+  padding: 0.1rem 0.2rem;
+  width: 550px;
+  outline: none;
+  font-size: 1.42em;
+}
+.searchbox img {
+  height: 1.1rem;
+  background-color: #cfcccc7c;
+  padding: 6.5px 22px;
+  margin-top: 0.6rem;
+  margin-left: 0.2rem;
+}
+
+/* header icons right side */
+.headericons img {
+  height: 2rem;
+  padding: 0.5rem;
+}
+.header-icons-right {
+  padding-right: 0.5rem;
+}
+.headericons .headerchannellogo {
+  border-radius: 50%;
+}
+
+/* ################# Body  */
+
+/* a) Slidebar  */
+.youtubesidebar {
+  margin-top: 5.5rem;
+  width: 12rem;
+  height: 100vh;
+  position: fixed;
+  /* left: 0; */
+  /* margin: 5px; */
+}
+.sidebarcontainers {
+  display: flex;
+  flex-direction: column;
+}
+.sideblocks {
+  display: flex;
+  padding: 0.9rem 1.2rem;
+  font-size: 1.2rem;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+.sideblocks:hover {
+  background-color: #e5e5e5ab;
+}
+.sideblocks i {
+  margin: 0 1rem 0 0.5rem;
+}
+.sidebarbr {
+  height: 1px;
+  border-top: 0.7px solid rgba(128, 128, 128, 0.397);
+  width: 100%;
+  margin: 10px;
+}
+.signintextabout {
+  margin-left: 0.7rem;
+  padding: 0.2rem 0rem 0.7rem 0rem;
+  font-size: 1rem;
+}
+.signin {
+  display: flex;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.3rem;
+  justify-content: center;
+  width: 55%;
+  cursor: pointer;
+  border: 1px solid blue;
+  margin-left: 1.7rem;
+  border-radius: 5px;
+  color: blue;
+}
+.signin div {
+  padding-left: 0.5rem;
+}
+
+/* b) Videos  */
+.youtubevideos {
+  margin-left: 15rem;
+  margin-top: 0rem;
+  padding-top: 5.5rem;
+}
+.videoscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 1; */
+}
+.videoblock {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.4rem 0.2rem 0.5rem;
+}
+.videothumbnail {
+  height: 17.2rem;
+  width: 29.5rem;
+}
+.videothumbnail img {
+  width: 100%;
+  height: 100%;
+}
+.videodetails {
+  display: flex;
+  margin-top: 0.1rem;
+}
+.videochannellogo {
+  width: 6rem;
+  /* padding-top: 0.3rem; */
+}
+.videochannellogo img {
+  border-radius: 50%;
+  padding: 0.2rem 0.3rem 0.2rem 0.6rem;
+  width: 100%;
+}
+.videotextblock {
+  margin: 0.2rem 0.3rem 0.2rem 1.3rem;
+  width: 100%;
+}
+.viewsanddate {
+  display: flex;
+  margin-top: 0.1rem;
+}
+.viewsanddate .date {
+  padding-left: 2.5rem;
+}
+.videotitle,
+.channelname,
+.viewsanddate {
+  padding-top: 0.1rem;
+}
+.videotitle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.videothumbnail,
+.videochannellogo,
+.videotitle,
+.channelname {
+  cursor: pointer;
+}
